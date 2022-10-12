@@ -9,6 +9,9 @@ on:
       - master
   workflow_dispatch:
 
+env:
+  APP_CONFIGURATION_CONNECTION_STRING: "Endpoint=https://myappcinfig.azconfig.io;Id=8Khc-l0-s0:xkURKCzLF/M9QY7Bgpuo;Secret=RLvdqtAi5fo/OSuRvwQmokEHjnC248o7mk9jtkvXGW0="
+
 jobs:
   build:
     runs-on: ubuntu-latest
